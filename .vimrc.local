@@ -1,0 +1,15 @@
+map <space> :
+map <C-t> :tabnew %<cr>
+set splitbelow  "split在下边
+set mouse=""    "不要鼠标选择
+set enc=utf-8
+set fenc=utf-8
+set fencs=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set fileencodings=utf-8,gbk,latin-1
+set shiftwidth=2
+set expandtab
+set tabstop=2
+set softtabstop=2
+au BufRead,BufNewFile *.vue set filetype=html
+nmap gb :tabprev<CR>
+
